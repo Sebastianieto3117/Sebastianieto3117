@@ -1,0 +1,58 @@
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(toyStory.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     background-attachment: fixed; 
+  height: 100vh;
+  margin: 0;
+
+}
+
+h1{
+    color: blanchedalmond;
+    margin: 15px;
+    text-transform: uppercase;
+
+}
+
+p{
+    font-size: 25px;
+    color: aquamarine;
+
+}
+
+button{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 15px 40px;
+    cursor: pointer;
+
+}
+
+button :hover{
+    background-color: red;
+
+}
+
+video{
+    height: 180px;
+    width: 130px;
+    border: 6px solid palegreen;
+    border-radius: 20%;
+    object-fit: cover;
+
+}
+
+.tarjeta{
+    background-color: gray;
+    border: 5px solid yellow;
+    text-align: center;
+
+}
+
